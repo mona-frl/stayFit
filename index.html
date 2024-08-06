@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>StayFit - Seleção de Dieta</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <img src="logo.png" alt="StayFit Logo">
+        <form id="diet-form">
+            <fieldset>
+                <legend>Escolha uma dieta</legend>
+                <label><input type="radio" name="diet" value="vegetariana"> Vegetariana</label>
+                <label><input type="radio" name="diet" value="vegana"> Vegana</label>
+                <label><input type="radio" name="diet" value="low-carb"> Low Carb</label>
+                <label><input type="radio" name="diet" value="keto"> Keto</label>
+                <label><input type="radio" name="diet" value="onivora"> Onívora</label>
+            </fieldset>
+            <fieldset>
+                <legend>Escolha um plano</legend>
+                <label><input type="radio" name="plan" value="diario"> Diário</label>
+                <label><input type="radio" name="plan" value="mensal"> Mensal</label>
+            </fieldset>
+            <button type="button" id="view-result">Ver Resultado</button>
+        </form>
+    </div>
+    <script src="scripts.js"></script>
+</body>
+</html>
